@@ -1,0 +1,218 @@
+/* ==================navbar styling================== */
+
+#navbar_section {
+  background: blanchedalmond;
+  box-shadow: 1px 1px 8px 1px cadetblue;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+  z-index: 999;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+.navbar {
+  justify-content: center !important;
+}
+
+.navbar .max-width ol,
+ul {
+  padding-left: 0rem !important;
+}
+
+.navbar.sticky {
+  /* background: #0d1420e8; */
+  background: #000;
+  top: 0;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbar .logo {
+  width: 18%;
+}
+
+.navbar .logo img {
+  width: 50%;
+}
+
+.navbar .logo a span {
+  color: #3e0404;
+  transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+
+.navbar .menu {
+  margin: 0 !important;
+}
+
+.navbar .menu {
+  margin: 0 !important;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a {
+  display: block;
+  color: #32aef9;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+  color: #27a7c5;
+}
+
+.navbar.sticky .menu li a:hover {
+  color: #b80a72;
+}
+
+/* menu btn styling */
+
+.menu-btn {
+  color: #0e0303;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+.scroll-up-btn {
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #ea0b0b;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  border-bottom-width: 2px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.scroll-up-btn.show {
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.scroll-up-btn:hover {
+  filter: brightness(90%);
+}
+
+/* responsive navbar code */
+@media screen and (max-width: 768px) and (min-width: 300px) {
+  .navbar .logo {
+    width: 45%;
+  }
+  .line_cntr {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+  }
+  .vdo_style {
+    width: 90%;
+  }
+}
+
+/* responsive media query start */
+
+/* navbar start */
+
+@media (max-width: 1104px) {
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .max-width {
+    padding: 0 50px;
+  }
+  .leader_content {
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu {
+    position: fixed;
+    height: 100vh;
+    width: 50%;
+    left: -100%;
+    top: 0;
+    background: #000000f0;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .max-width {
+    max-width: 930px;
+  }
+}
+
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+}
+
+@media (max-width: 500px) {
+  .scroll-up-btn {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
+}
