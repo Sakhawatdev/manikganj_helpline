@@ -1,7 +1,7 @@
 /* ==================navbar styling================== */
 
 #navbar_section {
-  background: blanchedalmond;
+  background: #d5e9ff;
   box-shadow: 1px 1px 8px 1px cadetblue;
   margin-bottom: 50px;
 }
@@ -75,7 +75,7 @@ ul {
 
 .navbar .menu li a {
   display: block;
-  color: #32aef9;
+  color: #175276;
   font-size: 18px;
   font-weight: bold;
   margin-left: 25px;
@@ -179,7 +179,7 @@ ul {
     width: 50%;
     left: -100%;
     top: 0;
-    background: #000000f0;
+    background: #000000;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
@@ -194,6 +194,7 @@ ul {
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+    color: #d5e9ff;
   }
   .max-width {
     max-width: 930px;
