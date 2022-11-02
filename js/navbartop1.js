@@ -4,7 +4,7 @@ HeaderNavbar.innerHTML = `
 <nav class="navbar">
 <div class="max-width m-0">
   <div class="logo">
-    <img width="50" src="../image/manikganj_help_logo.png" alt="" />
+    <a href="#"><img width="50" src="image/manikganj_help_logo.png" alt="no img" /></a>
   </div>
   <ul class="menu">
     <li><a href="index.html" class="menu-btn">হোম</a></li>
