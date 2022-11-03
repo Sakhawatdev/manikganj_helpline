@@ -38,8 +38,38 @@ a:hover {
 /* ======hospital.html start====== */
 #card_main {
 }
+
 .card_body {
-  background: #69d3e1;
+  background: #f7f7f7;
+  display: inline-flex;
+  color: #0a3a4f;
+  box-shadow: 1px 1px 5px 2px #c1d3e6;
+}
+
+.card_body a {
+  letter-spacing: 2px;
+}
+.contact_num {
+  padding: 12px;
+}
+
+.contact_num h6 {
+  font-family: Hind Siliguri;
+  font-size: 16px;
+  color: #0a3a4f;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.call_icon {
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.call_icon i {
+  font-size: 35px;
+  padding: 12px;
+  color: #139ba5;
 }
 
 /* ===========all responsive start=========== */
