@@ -39,11 +39,19 @@ a:hover {
 #card_main {
 }
 
+.contact_design {
+  width: 100%;
+  margin: 10px 0;
+  /* text-align: center; */
+}
+
 .card_body {
+  width: 100%;
   background: #f7f7f7;
   display: inline-flex;
   color: #0a3a4f;
   box-shadow: 1px 1px 5px 2px #c1d3e6;
+  height: 100%;
 }
 
 .card_body a {
@@ -51,8 +59,8 @@ a:hover {
 }
 .contact_num {
   padding: 12px;
+  width: 100%;
 }
-
 .contact_num h6 {
   font-family: Hind Siliguri;
   font-size: 16px;
@@ -65,11 +73,25 @@ a:hover {
   text-align: center;
   align-items: center;
   display: flex;
+  height: 100%;
 }
+
+.call_icon a {
+  position: relative;
+}
+
 .call_icon i {
   font-size: 35px;
   padding: 12px;
   color: #139ba5;
+  transition: 0.5s;
+  position: absolute;
+  right: 0;
+  top: -28px;
+}
+.call_icon i:hover {
+  color: #fe0000;
+  transition: 0.5s;
 }
 
 /* ===========all responsive start=========== */
