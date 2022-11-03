@@ -35,6 +35,13 @@ a:hover {
   color: #f3fafa;
 }
 
+/* ======hospital.html start====== */
+#card_main {
+}
+.card_body {
+  background: #69d3e1;
+}
+
 /* ===========all responsive start=========== */
 
 @media screen and (max-width: 576px) and (min-width: 300px) {
